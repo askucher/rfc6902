@@ -1,8 +1,6 @@
-# rfc6902
+# rfc6902 (adapted for mobx arrays)
 
-[![npm version](https://badge.fury.io/js/rfc6902.svg)](https://www.npmjs.com/package/rfc6902)
-[![Travis CI Build Status](https://travis-ci.org/chbrown/rfc6902.svg)](https://travis-ci.org/chbrown/rfc6902)
-[![Coverage Status](https://coveralls.io/repos/chbrown/rfc6902/badge.svg)](https://coveralls.io/github/chbrown/rfc6902)
+# you are welcome to join and improve it https://ide.c9.io/askucher/rfc6902#openfile-README.md
 
 Complete implementation of [RFC6902](http://tools.ietf.org/html/rfc6902) "JavaScript Object Notation (JSON) Patch"
 (including [RFC6901](http://tools.ietf.org/html/rfc6901) "JavaScript Object Notation (JSON) Pointer"),
