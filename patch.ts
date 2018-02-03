@@ -3,18 +3,20 @@ import {compare} from './equal'
 import {MissingError, TestError} from './errors'
 
 function _add(object, key, value) {
-  if (Array.isArray(object)) {
-    // `key` must be an index
+  
     if (key == '-') {
-      object.push(value)
+            object.push(value);
+    }
+    
+    if (Array.isArray(object)) {
+        // `key` must be an index
+        object.splice(key, 0, value);
+        
     }
     else {
-      object.splice(key, 0, value)
+        object[key] = value;
     }
-  }
-  else {
-    object[key] = value
-  }
+  
 }
 
 function _remove(object, key) {
